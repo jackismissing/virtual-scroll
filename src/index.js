@@ -27,10 +27,20 @@ function VirtualScroll(options) {
         keyStep: 120,
         preventTouch: false,
         unpreventTouchClass: 'vs-touchmove-allowed',
-        limitInertia: false
+        limitInertia: false,
+        inertiaOptions: {
+            stability: null, 
+            sensitivity: null, 
+            tolerance: null, 
+            delay: null
+        }
     });
 
-    if (this.options.limitInertia) this._lethargy = new Lethargy();
+    if (this.options.limitInertia) this._lethargy = new Lethargy(
+        this.options.inertiaOptions.stability, 
+        this.options.inertiaOptions.sensitivity, 
+        this.options.inertiaOptions.tolerance,
+        this.options.inertiaOptions.delay);
 
     this._emitter = new Emitter();
     this._event = {

@@ -31,7 +31,5 @@
   "devDependencies": {
     "prova": "^2.1.2"
   },
-  "jspm": {
-    "registry": "github"
-  }
+  "registry": "github"
 }

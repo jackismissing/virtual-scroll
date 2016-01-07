@@ -1,6 +1,6 @@
 {
   "name": "virtual-scroll",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fork of ayamflow's virtual-scroll to include options to pass to lethargy",
   "main": "src/index.js",
   "scripts": {

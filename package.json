@@ -30,5 +30,6 @@
   },
   "devDependencies": {
     "prova": "^2.1.2"
-  }
+  },
+  "registry": "npm"
 }

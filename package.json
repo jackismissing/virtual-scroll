@@ -1,7 +1,7 @@
 {
   "name": "virtual-scroll",
-  "version": "1.0.2",
-  "description": "Smooth fake scroll using CSS transform",
+  "version": "1.0.3",
+  "description": "Fork of ayamflow's virtual-scroll to include options to pass to lethargy",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/.bin/prova ./test/**/*.js -b -l phantom -q",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayamflow/virtual-scroll"
+    "url": "https://github.com/jackismissing/virtual-scroll"
   },
   "keywords": [
     "virtual",
     "scroll",
     "smooth"
   ],
-  "author": "= <=>",
+  "author": "https://github.com/ayamflow",
+  "contributor": "https://github.com/jackismissing"
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayamflow/virtual-scroll/issues"
+    "url": "https://github.com/jackismissing/virtual-scroll/issues"
   },
-  "homepage": "https://github.com/ayamflow/virtual-scroll",
+  "homepage": "https://github.com/jackismissing/virtual-scroll",
   "dependencies": {
     "bindall-standalone": "^1.0.5",
     "defaults": "^1.0.0",

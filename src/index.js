@@ -2,7 +2,7 @@
 
 var defaults = require('defaults');
 var Emitter = require('tiny-emitter');
-var Lethargy = require('d4nyll/lethargy').Lethargy;
+var Lethargy = require('lethargy').Lethargy;
 var support = require('./support');
 var clone = require('./clone');
 var bindAll = require('bindall-standalone');
